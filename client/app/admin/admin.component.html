@@ -1,0 +1,9 @@
+<div class="col-md-6 col-md-offset-3">
+    <h3>Administration</h3>
+    <div class="todo item" *ngFor="let user of users">
+        <button type="button" class="btn btn-default btn-lg" (click)="deleteUser(user._id)">
+            <span class="title">{{user.username}} ({{user.firstName}} {{user.lastName}})</span>
+            <span class="glyphicon glyphicon-trash" aria-hidden="true"></span>
+        </button>
+    </div>
+    <div>

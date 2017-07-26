@@ -1,0 +1,16 @@
+﻿<div class="col-md-6 col-md-offset-3">
+    <h3>User: {{currentUser.username}}</h3>
+    <h4>First Name: {{currentUser.firstName}}</h4>
+    <h4>Last Name: {{currentUser.lastName}}</h4><br>
+    <IFRAME src="http://king-dom.ru/informer/ip.php" width="250" height="50" scrolling="no" frameborder="0"></IFRAME>
+    <p><a [routerLink]="['/login']">Logout</a></p>
+</div>
+<div class="col-md-6 col-md-offset-3">
+    <h3>Administration</h3>
+    <div class="todo item" *ngFor="let user of users">
+        <button type="button" class="btn btn-default btn-lg" (click)="deleteUser(user._id)">
+            <span class="title">{{user.username}} ({{user.firstName}} {{user.lastName}})</span>
+            <span class="glyphicon glyphicon-trash" aria-hidden="true"></span>
+        </button>
+    </div>
+    <div>

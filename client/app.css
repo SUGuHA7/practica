@@ -1,0 +1,62 @@
+﻿a {
+    cursor: pointer;
+}
+
+.help-block {
+    font-size: 12px;
+}
+
+.col-xs-12 {
+    width: 104%;
+    margin-left: -1.1%;
+}
+
+a {
+    cursor: pointer;
+}
+
+.btn {
+    font-size: 120%;
+}
+
+.help-block {
+    font-size: 12px;
+}
+
+.jumbotron {
+    background-color: #fff;
+}
+
+.img-inherit {
+    width: 60%;
+    margin-left: 20%;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #0f90f3;
+    border: width border-style transparent;
+}
+
+.bottom {
+    position: fixed;
+}
+
+.bottom hr {
+    width: 100%;
+    background: #0f90f3;
+    height: 10px;
+    margin: 0;
+    margin-left: -1%;
+    border: none;
+}
+
+.bottom_content {
+    width: 100%;
+    height: 120px;
+    background: #022945;
+}
+
+iframe {
+    font-family: inherit;
+}
